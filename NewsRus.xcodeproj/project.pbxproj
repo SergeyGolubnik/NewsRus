@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8716EECB261790F8009F9831 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8716EECA261790F8009F9831 /* NewsViewController.swift */; };
 		8747D73626150E8C001DDD7A /* Constanta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8747D73526150E8C001DDD7A /* Constanta.swift */; };
 		875FC5B5260D0C19000D4CFB /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875FC5B4260D0C19000D4CFB /* WebViewController.swift */; };
 		8773C9A12613933300A3081C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8773C99D2613933300A3081C /* SceneDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8716EECA261790F8009F9831 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		8747D73526150E8C001DDD7A /* Constanta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constanta.swift; sourceTree = "<group>"; };
 		875FC5B4260D0C19000D4CFB /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		8773C99D2613933300A3081C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				87C6854E2605190C00C6DEC5 /* DashbordTableViewController.swift */,
+				8716EECA261790F8009F9831 /* NewsViewController.swift */,
 				875FC5B4260D0C19000D4CFB /* WebViewController.swift */,
 				8773C9A72613941C00A3081C /* AlertController.swift */,
 			);
@@ -130,8 +133,8 @@
 			children = (
 				D421E637260C62F900A750A7 /* NetworkError.swift */,
 				D421E63D260C631100A750A7 /* NetworkService.swift */,
-				D421E634260C62EC00A750A7 /* GetCommentResponse.swift */,
 				D40A0D0C260C6B40004E57DC /* CommentNetworkService.swift */,
+				D421E634260C62EC00A750A7 /* GetCommentResponse.swift */,
 			);
 			path = Networc;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				875FC5B5260D0C19000D4CFB /* WebViewController.swift in Sources */,
 				D421E63E260C631100A750A7 /* NetworkService.swift in Sources */,
 				8773C9A82613941C00A3081C /* AlertController.swift in Sources */,
+				8716EECB261790F8009F9831 /* NewsViewController.swift in Sources */,
 				87C685562605211900C6DEC5 /* Model.swift in Sources */,
 				87C68552260519DE00C6DEC5 /* CommensTableViewCell.swift in Sources */,
 				8773C9A12613933300A3081C /* SceneDelegate.swift in Sources */,

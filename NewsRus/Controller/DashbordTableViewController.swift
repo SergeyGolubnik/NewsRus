@@ -70,8 +70,9 @@ class DashbordTableViewController: UITableViewController {
             
             let com = comment[indexPath.row]
             
-            let newNewsVC = segue.destination as! WebViewController
-            newNewsVC.newsComment = com
+            let newNewsVC = segue.destination as! NewsViewController
+            newNewsVC.newsDetailView = com
+            
         }
         
     }
